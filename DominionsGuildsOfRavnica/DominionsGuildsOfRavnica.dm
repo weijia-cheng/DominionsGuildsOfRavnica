@@ -20,18 +20,20 @@
 #copyspr 1869
 #name "Boros Commander"
 #descr "Boros Commanders are competent troop leaders who wear plate armor for protection."
+#nametype 146
 #end
 
 #newmonster 7001
 #copystats 701
 #name "Boros Battleshaper"
+#descr "Boros Battleshapers are minotaur commanders who inspire the rank-and-file soldiers of the Legion with their rousing battlecries."
 #spr1 "sprites/boros_battleshaper.png"
 #spr2 "sprites/boros_battleshaper_att.png"
 #clearspec
 #trample
 #heal
 #expertleader
-#descr "Boros Battleshapers are minotaur commanders who inspire the rank-and-file soldiers of the Legion with their rousing battlecries."
+#nametype 146
 #end
 
 #newnation
