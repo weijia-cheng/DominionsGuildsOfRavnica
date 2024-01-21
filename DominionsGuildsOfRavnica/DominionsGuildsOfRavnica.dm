@@ -22,6 +22,18 @@
 #descr "Boros Commanders are competent troop leaders who wear plate armor for protection."
 #end
 
+#newmonster 7001
+#copystats 701
+#name "Boros Battleshaper"
+#spr1 "sprites/boros_battleshaper.png"
+#spr2 "sprites/boros_battleshaper_att.png"
+#clearspec
+#trample
+#heal
+#expertleader
+#descr "Boros Battleshapers are minotaur commanders who inspire the rank-and-file soldiers of the Legion with their rousing battlecries."
+#end
+
 #newnation
 #name "Boros"
 #epithet "Legion Assembled"
@@ -40,6 +52,7 @@ Priests: Weak; mages can cast Lighting Helix in combat."
 #startsite "Sunhome"
 
 #addreccom 7000
+#addreccom 7001
 #end
 
 ---------------
