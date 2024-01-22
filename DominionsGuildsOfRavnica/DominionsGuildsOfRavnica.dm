@@ -50,10 +50,27 @@
 #custommagic 3456 10 -- FAES
 #magicskill 9 1 -- Holy
 #weapon "Fist"
+#mr 15
 #holy
 #female
 #startage 25
 #nametype 147
+#end
+
+#newmonster 7003
+#copystats 224
+#name "Wojek Embermage"
+#descr "Wojek Embermages are the combat mages of the League of Wojek, the policing division of the Boros Legion. Unlike the Boros Guildmages, Wojek Embermages are exclusively drilled in the arts of Fire magic. They are not ordained priests and cannot cast angelically powered spells."
+#spr1 "sprites/wojek_embermage.png"
+#spr2 "sprites/wojek_embermage_att.png"
+#clearmagic
+#clearspec
+#magicskill 0 2 -- Fire
+#custommagic 3456 10 -- FAES
+#mr 14
+#patrolbonus 10
+#startage 25
+#nametype 146
 #end
 
 #newnation
@@ -76,6 +93,7 @@ Priests: Weak; mages can cast Lighting Helix in combat."
 #addreccom 7000
 #addreccom 7001
 #addreccom 7002
+#addreccom 7003
 #end
 
 ---------------
