@@ -38,6 +38,22 @@
 
 #newmonster 7002
 #copystats 224
+#name "Wojek Embermage"
+#descr "Wojek Embermages are the combat mages of the League of Wojek, the policing division of the Boros Legion. Unlike the Boros Guildmages, Wojek Embermages are exclusively drilled in the arts of Fire magic. They are not ordained priests and cannot cast angelically powered spells."
+#spr1 "sprites/wojek_embermage.png"
+#spr2 "sprites/wojek_embermage_att.png"
+#clearmagic
+#clearspec
+#magicskill 0 2 -- Fire
+#custommagic 3456 10 -- FAES
+#mr 14
+#patrolbonus 10
+#startage 25
+#nametype 146
+#end
+
+#newmonster 7003
+#copystats 224
 #copyspr 3818
 #name "Boros Guildmage"
 #descr "Boros Guildmages are the rank-and-file battlemages of the Boros Legion. All Boros Guildmages are trained in the paths of Air and Fire, and either advance in mastery of these paths or dabble in Earth magic at their discretion. All Boros Guildmages are ordained as mage-priests of the Boros Legion, enabling them to cast the Legion's signature combat spell, Lightning Helix, against their foes."
@@ -55,22 +71,6 @@
 #female
 #startage 25
 #nametype 147
-#end
-
-#newmonster 7003
-#copystats 224
-#name "Wojek Embermage"
-#descr "Wojek Embermages are the combat mages of the League of Wojek, the policing division of the Boros Legion. Unlike the Boros Guildmages, Wojek Embermages are exclusively drilled in the arts of Fire magic. They are not ordained priests and cannot cast angelically powered spells."
-#spr1 "sprites/wojek_embermage.png"
-#spr2 "sprites/wojek_embermage_att.png"
-#clearmagic
-#clearspec
-#magicskill 0 2 -- Fire
-#custommagic 3456 10 -- FAES
-#mr 14
-#patrolbonus 10
-#startage 25
-#nametype 146
 #end
 
 #newnation
