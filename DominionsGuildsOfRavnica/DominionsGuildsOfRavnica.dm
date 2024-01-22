@@ -36,6 +36,26 @@
 #nametype 146
 #end
 
+#newmonster 7002
+#copystats 224
+#copyspr 3818
+#name "Boros Guildmage"
+#descr "Boros Guildmages are the rank-and-file battlemages of the Boros Legion. All Boros Guildmages are trained in the paths of Air and Fire, and either advance in mastery of these paths or dabble in Earth magic at their discretion. All Boros Guildmages are ordained as mage-priests of the Boros Legion, enabling them to cast the Legion's signature combat spell, Lightning Helix, against their foes."
+#clearweapons
+#clearmagic
+#clearspec
+#magicskill 0 1 -- Fire
+#magicskill 1 1 -- Air
+#custommagic 1408 100 -- FAE
+#custommagic 3456 10 -- FAES
+#magicskill 9 1 -- Holy
+#weapon "Fist"
+#holy
+#female
+#startage 25
+#nametype 147
+#end
+
 #newnation
 #name "Boros"
 #epithet "Legion Assembled"
@@ -55,6 +75,7 @@ Priests: Weak; mages can cast Lighting Helix in combat."
 
 #addreccom 7000
 #addreccom 7001
+#addreccom 7002
 #end
 
 ---------------
