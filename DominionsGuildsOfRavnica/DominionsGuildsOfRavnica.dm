@@ -43,7 +43,7 @@
 #descr "Founded by the archangel Razia, one of the ten Paruns of Ravnica, the Boros Legion acts as Ravnica's police force and standing army. From the guildhall of Sunhome, Boros skyknights take to the skies as elite soldiers drill on the ground. Boros mages bring formidable firepower to the fray, including the fearsome Reckoners, minotaurs who have mastered the arts of Air magic. Who will stand against the Boros Legion in their conquest of Ravnica?"
 #summary "Race: Humans, some Goblins and Minotaurs.
 Military: Well-disciplined soldiers, including flying skynights.
-Magic: Air, Fire, some Earth.
+Magic: Air, Fire, some Earth and Astral.
 Priests: Weak; mages can cast Lighting Helix in combat."
 #color 0.844 0.156 0
 #secondarycolor 0.967 0.945 0.839
