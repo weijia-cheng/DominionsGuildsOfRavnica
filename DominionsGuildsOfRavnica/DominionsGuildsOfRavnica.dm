@@ -13,6 +13,7 @@
 #gems 0 2 -- Fire
 #gems 1 2 -- Air
 #gems 3 1 -- Earth
+#homecom 7004
 #end
 
 #newmonster 7000 -- This mod starts at 7000
@@ -71,6 +72,20 @@
 #female
 #startage 25
 #nametype 147
+#end
+
+#newmonster 7004
+#copystats 1075
+#copyspr 1075
+#name "Skyknight Captain"
+#descr "Skyknight Captains command the sacred airborne Boros skyknights mounted atop flying pegasi. They are ordained as priests and can grant blessings."
+#clearweapons
+#cleararmor
+#weapon "Magic Lance"
+#armor "Legionary Helmet"
+#armor "Plate Hauberk"
+#armor "Shield"
+#nametype 146
 #end
 
 #newnation
