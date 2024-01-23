@@ -14,6 +14,7 @@
 #gems 1 2 -- Air
 #gems 3 1 -- Earth
 #homecom 7004
+#homecom 7005
 #end
 
 #newmonster 7000 -- This mod starts at 7000
@@ -86,6 +87,35 @@
 #armor "Plate Hauberk"
 #armor "Shield"
 #nametype 146
+#end
+
+#newmonster 7005
+#copystats 7001
+#name "Boros Reckoner"
+#descr "Occasionally a Boros minotaur displays exceptional aptitude in magic in addition to strategic mastery. These prodigiously talented minotaurs are taught to harness the full array of Boros battle-magic in the ranks of the Boros Reckoners. Harnessing the power of lighting into their own bodies to strike attackers, they master the secrets of Air magic while harnessing the potential of other magic paths known to the Boros. Equipped with the finest magical armaments requisitioned from the Boros armory, they are truly formidable mage-champions of the Boros cause that strike fear into the hearts of many enemies."
+#spr1 "sprites/boros_reckoner.png"
+#spr2 "sprites/boros_reckoner_att.png"
+#clearweapons
+#cleararmor
+#magicskill 0 2 -- Fire
+#magicskill 1 3 -- Air
+#custommagic 3456 100 -- FAES
+#custommagic 3456 10 -- FAES
+#magicskill 9 1 -- Holy
+#weapon "Implementor Axe"
+#armor "Gleaming Helmet"
+#armor "Gleaming Hauberk"
+#hp 30
+#str 18
+#att 13
+#def 11
+#prec 10
+#mr 16
+#rpcost 4
+#holy
+#overcharged 10
+#combatcaster
+#startage 55
 #end
 
 #newnation
