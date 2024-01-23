@@ -107,7 +107,7 @@
 #newmonster 7005
 #copystats 7001
 #name "Boros Reckoner"
-#descr "Occasionally a Boros minotaur displays exceptional aptitude in magic in addition to strategic mastery. These prodigiously talented minotaurs are taught to harness the full array of Boros battle-magic in the ranks of the Boros Reckoners. Harnessing the power of lighting into their own bodies to strike attackers, they master the secrets of Air magic while harnessing the potential of other magic paths known to the Boros. Equipped with the finest magical armaments requisitioned from the Boros armory, they are truly formidable mage-champions of the Boros cause that strike fear into the hearts of many enemies."
+#descr "Occasionally a Boros minotaur displays exceptional aptitude in magic in addition to strategic mastery. These prodigiously talented minotaurs are taught to harness the full array of Boros battle-magic in the ranks of the Boros Reckoners. Harnessing the power of lighting into their own bodies to strike attackers, they master the secrets of Air magic while tapping into the potential of other magic paths known to the Boros. Equipped with the finest magical armaments requisitioned from the Boros armory, they are truly formidable mage-champions of the Boros cause that strike fear into the hearts of many enemies. As dedicated battle-mages they have little interest in rigorous, slow-paced magical research and shirk such duties whenever possible."
 #spr1 "sprites/boros_reckoner.png"
 #spr2 "sprites/boros_reckoner_att.png"
 #clearweapons
@@ -128,8 +128,10 @@
 #mr 16
 #rpcost 4
 #holy
+#holycost 2
 #overcharged 10
 #combatcaster
+#researchbonus -5
 #startage 55
 #end
 
