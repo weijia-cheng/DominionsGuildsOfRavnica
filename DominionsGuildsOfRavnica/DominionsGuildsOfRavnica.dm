@@ -148,6 +148,19 @@
 #armor "Full Ring Mail"
 #end
 
+#newmonster 7007
+#copystats 133
+#name "Boros Recruit"
+#descr "Boros Recruits are the rank-and-file soldiers of the Boros Legion. They are given standard-issue swords or crossbows."
+#spr1 "sprites/boros_recruit_sword.png"
+#spr2 "sprites/boros_recruit_sword_att.png"
+#clearspec
+#cleararmor
+#armor "Legionary Helmet"
+#armor "Chain Mail Hauberk"
+#armor "Kite Shield"
+#end
+
 #newnation
 #name "Boros"
 #epithet "Legion Assembled"
@@ -170,6 +183,7 @@ Priests: Weak; mages can cast Lighting Helix in combat."
 #addreccom 7002
 #addreccom 7003
 #addrecunit 7006
+#addrecunit 7007
 #end
 ---------------
 -- End Boros --
