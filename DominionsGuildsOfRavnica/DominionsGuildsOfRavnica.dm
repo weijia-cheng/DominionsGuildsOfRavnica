@@ -2,6 +2,21 @@
 #description "A nationpack converting the Guilds of Ravnica from Magic: the Gathering into playable nations."
 #version 0.01
 
+------------------
+-- Begin Shared --
+------------------
+#newweapon 1700 -- This mod starts at 1700
+#copyweapon "Battleaxe"
+#name "Magic Battleaxe"
+#dmg 10
+#att 2
+#magic
+#rcost 8
+#end
+----------------
+-- End Shared --
+----------------
+
 -----------------
 -- Begin Boros --
 -----------------
@@ -102,7 +117,7 @@
 #custommagic 3456 100 -- FAES
 #custommagic 3456 10 -- FAES
 #magicskill 9 1 -- Holy
-#weapon "Implementor Axe"
+#weapon 1700
 #armor "Gleaming Helmet"
 #armor "Gleaming Hauberk"
 #hp 30
@@ -140,7 +155,6 @@ Priests: Weak; mages can cast Lighting Helix in combat."
 #addreccom 7002
 #addreccom 7003
 #end
-
 ---------------
 -- End Boros --
 ---------------
