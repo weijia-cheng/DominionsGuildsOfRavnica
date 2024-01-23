@@ -133,6 +133,19 @@
 #startage 55
 #end
 
+#newmonster 7006
+#copystats 1390
+#name "Boros Recruit"
+#descr "Even goblins, with their reputation for wildness and mischief-making, find their place in the Boros Legion. Strictly disciplined by their human and minotaur drill sergeants, Boros goblins march into combat in loose phalanxes with their spears."
+#spr1 "sprites/boros_recruit_goblin.png"
+#spr2 "sprites/boros_recruit_goblin_att.png"
+#clearweapons
+#cleararmor
+#weapon "Spear"
+#armor "Legionary Helmet"
+#armor "Full Ring Mail"
+#end
+
 #newnation
 #name "Boros"
 #epithet "Legion Assembled"
@@ -154,6 +167,7 @@ Priests: Weak; mages can cast Lighting Helix in combat."
 #addreccom 7001
 #addreccom 7002
 #addreccom 7003
+#addrecunit 7006
 #end
 ---------------
 -- End Boros --
