@@ -149,6 +149,16 @@
 #end
 
 #newmonster 7007
+#copystats 2108
+#copyspr 2108
+#name "Boros Recruit"
+#descr "Boros Recruits are the rank-and-file soldiers of the Boros Legion. They are given standard-issue swords or crossbows."
+#cleararmor
+#armor "Legionary Helmet"
+#armor "Ring Mail Cuirass"
+#end
+
+#newmonster 7008
 #copystats 133
 #name "Boros Recruit"
 #descr "Boros Recruits are the rank-and-file soldiers of the Boros Legion. They are given standard-issue swords or crossbows."
@@ -184,6 +194,7 @@ Priests: Weak; mages can cast Lighting Helix in combat."
 #addreccom 7003
 #addrecunit 7006
 #addrecunit 7007
+#addrecunit 7008
 #end
 ---------------
 -- End Boros --
