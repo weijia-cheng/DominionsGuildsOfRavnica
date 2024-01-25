@@ -184,6 +184,22 @@
 #armor "Kite Shield"
 #end
 
+#newmonster 7010
+#copystats 3614
+#name "Boros Challenger"
+#descr "Boros Challengers are veteran Boros soldiers of impressive battle prowess, wielding broad swords."
+#spr1 "sprites/boros_challenger.png"
+#spr2 "sprites/boros_challenger_att.png"
+#clearspec
+#cleararmor
+#armor "Legionary Helmet"
+#armor "Chain Mail Hauberk"
+#armor "Kite Shield"
+#mr 10
+#prec 10
+#mor 13
+#end
+
 #newnation
 #name "Boros"
 #epithet "Legion Assembled"
@@ -209,6 +225,7 @@ Priests: Weak; mages can cast Lighting Helix in combat."
 #addrecunit 7007
 #addrecunit 7008
 #addrecunit 7009
+#addrecunit 7010
 #end
 ---------------
 -- End Boros --
