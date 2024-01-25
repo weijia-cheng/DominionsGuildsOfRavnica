@@ -159,6 +159,19 @@
 #end
 
 #newmonster 7008
+#copystats 1014
+#copyspr 2111
+#name "Wojek Halberdier"
+#descr "The League of Wojek, the policing division of the Boros Legion, fields halberdiers as guards and law-enforcers. Wojek Halberdiers count as two normal soldiers when defending besieged castles and patrolling for miscreants."
+#cleararmor
+#armor "Legionary Helmet"
+#armor "Plate Cuirass"
+#att 11
+#mr 10
+#patrolbonus 1
+#end
+
+#newmonster 7009
 #copystats 133
 #name "Boros Recruit"
 #descr "Boros Recruits are the rank-and-file soldiers of the Boros Legion. They are given standard-issue swords or crossbows."
@@ -195,6 +208,7 @@ Priests: Weak; mages can cast Lighting Helix in combat."
 #addrecunit 7006
 #addrecunit 7007
 #addrecunit 7008
+#addrecunit 7009
 #end
 ---------------
 -- End Boros --
