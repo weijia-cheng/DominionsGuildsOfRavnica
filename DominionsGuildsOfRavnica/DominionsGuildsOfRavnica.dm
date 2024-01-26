@@ -13,6 +13,14 @@
 #magic
 #rcost 8
 #end
+
+#newweapon 1701
+#copyweapon "Broad Sword"
+#name "Swiftblade"
+#nratt 2
+#att -1
+#rcost 6
+#end
 ----------------
 -- End Shared --
 ----------------
@@ -200,6 +208,18 @@
 #mor 13
 #end
 
+#newmonster 7011
+#copystats 7010
+#name "Boros Swiftblade"
+#descr "Boros Swiftblades are elite shock troops who charge into the fray first, picking off soft targets such as archers and mages before heavy infantry enter the battle. They strike twice with their blades, but their weapons are not magical."
+#spr1 "sprites/boros_swiftblade.png"
+#spr2 "sprites/boros_swiftblade_att.png"
+#clearweapons
+#weapon 1701 -- Swiftblade
+#gcost 26
+#rpcost 35
+#end
+
 #newnation
 #name "Boros"
 #epithet "Legion Assembled"
@@ -226,6 +246,7 @@ Priests: Weak; mages can cast Lighting Helix in combat."
 #addrecunit 7008
 #addrecunit 7009
 #addrecunit 7010
+#addrecunit 7011
 #end
 ---------------
 -- End Boros --
